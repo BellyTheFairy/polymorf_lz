@@ -1,7 +1,7 @@
 #var1
 import pandas as pd
 
-class DataProcessor:
+class Processor:
     def __init__(self, filepath):
         try:
             self.df = pd.read_csv(filepath, encoding='utf-8-sig')
